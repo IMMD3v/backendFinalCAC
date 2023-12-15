@@ -11,10 +11,10 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Lista de Oradores</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="../css/bootstrap.min.css">
         <link rel="stylesheet" href="../css/style.css">
-        <title>JSP Page</title>
     </head>
     <body>
         <div class="container">
@@ -23,7 +23,7 @@
                     <div class="container">
                         <a class="navbar-brand" href="#">
                             <img src="../assets/images/codoacodo.png" alt="Logo de codo a codo" style="height: auto; width: 50px;" class="d-inline-block align-text-top">
-                            Conf Bs As
+                            Conferencia Tecno
                         </a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
@@ -31,24 +31,27 @@
                         <div class="collapse navbar-collapse" id="navbarsExample07">
                             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">La Conferencia</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#lasAreas">Las Areas</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#contactUs">Contacto</a>
-                                </li>
+                        <a class="nav-link" aria-current="page" href="../index.html">La Conferencia</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../index.html#lasAreas">Las Areas</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../index.html#contactUs">Contacto</a>
+                      </li>
                                 <li class="nav-item">
                                     <a class="nav-link text-success" href="../tickets/tickets.html">Comprar Tickets</a>
                                 </li>
+                                <li class="nav-item">
+                          <a class="nav-link text-success" href="login.jsp">Login</a>
+                      </li>
                             </ul>
                         </div>
                     </div>
                 </nav>
             </header>
             <div class="container mt-5">
-                <h2>Lista de Oradores</h2>
+                <h2>Lista de Oradores Confirmados</h2>
                 <table class="table table-bordered">
                     <thead>
                         <tr>
